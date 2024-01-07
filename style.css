@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    background-image: url(tree-736885_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+   
+}
+#clock{
+    font-family: monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    backdrop-filter:blur(5px);
+    width:100%;
+
+}
